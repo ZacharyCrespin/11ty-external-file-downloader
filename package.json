@@ -1,0 +1,12 @@
+{
+  "name": "11ty-external-file-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zachary Crespin <contact@zacharyc.site> (https://zacharyc.site)",
+  "license": "GPL-3.0-or-later"
+}

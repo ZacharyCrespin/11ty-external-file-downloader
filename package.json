@@ -1,18 +1,28 @@
 {
   "name": "11ty-external-file-downloader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "keywords": ["11ty", "eleventy"],
+  "keywords": [
+    "11ty",
+    "eleventy"
+  ],
   "homepage": "https://github.com/ZacharyCrespin/11ty-external-file-downloader#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/ZacharyCrespin/11ty-external-file-downloader.git"
   },
   "bugs": {
-    "url" : "https://github.com/ZacharyCrespin/11ty-external-file-downloader/issues"
+    "url": "https://github.com/ZacharyCrespin/11ty-external-file-downloader/issues"
   },
-  "files": ["index.js", "License.txt", "package.json"],
+  "files": [
+    "index.js",
+    "License.txt",
+    "package.json"
+  ],
   "main": "index.js",
   "author": "Zachary Crespin <contact@zacharyc.site> (https://zacharyc.site)",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }

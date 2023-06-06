@@ -1,4 +1,3 @@
-const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
@@ -6,6 +5,9 @@ const path = require('path');
 async function eleventyPluginDownloader(config, options = {}) {
   // Set default values if necessary
   const { urls = [], directory = '_site/external', fileName = '[name].[ext]' } = options;
+
+  // Dynamically import 'node-fetch' using import()
+  const fetch = await import('node-fetch').then((module) => module.default);
 
   // Iterate over the list of URLs to download
   for (const url of urls) {
